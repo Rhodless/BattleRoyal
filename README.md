@@ -1,4 +1,5 @@
 ## Setup
+*Il est nécessaire d'utiliser redis pour la syncronisation des deux serveurs*
 Assurez vous d'avoir bien setup le plugin de <a href="https://github.com/Rhodless/BattleRoyal-Sync">synchronisation</a>.
 Installez ce plugin sur votre serveur BattleRoyal (que vous avez nommé `battleroyal-event`). Une fois le plugin assurez-vous d'avoir ajouté des points de téléportation avec 
 `/br addtp` et d'avoir setup les inventaires (voir les commandes)
