@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
+}
+
+compileJava {options.encoding = "UTF-8"}
+group 'fr.rhodless'
+version '1.0.0-BETA'
+
+
+repositories {
+    mavenCentral()
+    google()
+    maven { url 'https://maven.imanity.dev/repository/imanity-libraries/' }
+}
+
+dependencies {
+    implementation("redis.clients:jedis:3.5.2")
+
+    compileOnly("org.imanity.paperspigot:paper1.8.8:1.8.8")
+    compileOnly("org.projectlombok:lombok:1.18.22")
+    annotationProcessor("org.projectlombok:lombok:1.18.22")
+}

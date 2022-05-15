@@ -1,0 +1,7 @@
+main: fr.rhodless.battleroyal.Main
+version: 1.0.0
+author: Rhodless
+name: BattleRoyal
+commands:
+  br:
+    permission: splifight.admin

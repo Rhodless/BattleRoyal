@@ -1,0 +1,24 @@
+messages:
+  PREFIX: '&c&lSplifight &8&l» &f'
+  MORT_DECO: "<prefix>&a<player> &fa été éliminé par &cdéconnexion&f."
+  MORT: "<prefix>&a<player> &fa été éliminé."
+  WIN_NOBODY: "<prefix>&cPersonne ne gagne la partie..."
+  WIN_TEAM: "<prefix>&fVictoire de l'équipe de &a<winner>"
+SCOREBOARD-TITLE: '&cMon super titre'
+SCOREBOARD:
+  - '&1'
+  - '&7Pseudo: &c<pseudo>'
+  - '&7Joueurs: &c<players>'
+  - '&7Teams: &c<teams>'
+  - '&7Leader: &c<leader>'
+  - '&2'
+  - 'ma super ip'
+redis:
+  host: 127.0.0.1
+  port: 6379
+  auth: false
+  user: user
+  password: mon_mot_de_passe
+INVENTORY: []
+INVENTORY-ARMOR: []
+TELEPORT-POINTS: []
